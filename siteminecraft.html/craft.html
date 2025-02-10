@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(133, 157, 57);
+            color: white; /* Comentário de CSS */
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(52, 52, 45); 
+            text-align: center;
+        }
+        a {
+            font: normal 18pt Arial;
+            display: block; /* Faz com que o link ocupe uma linha inteira */
+            text-align: center;
+            margin-top: 10px; /* Espaçamento entre as imagens e os links */
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+            gap: 20px; /* Espaço entre as imagens */
+            padding: 20px; /* Espaçamento interno da galeria */
+        }
+        .gallery img {
+            width: 50%; /* Ajusta a imagem para ocupar a largura da célula */
+            border-radius: 8px; /* Bordas arredondadas nas imagens */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/">InfoCraft</a>
+            <div class="navbar">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="craft.html">Crafts</a></li>
+                <li><a href="bosses.html">Bosses</a></li>
+                <li><a href="biomas.html">Biomas</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <div class="gallery">
+        <div>
+            <img src="images/bancada.png" alt="Craft Bancada de Trabalho">
+            <a href="#">Craft para Bancada de Trabalho</a>
+        </div>
+        <div>
+            <img src="images/fornalha.gif" alt="Craft Fornalha">
+            <a href="#">Craft para Fornalha</a>
+        </div>
+        <div>
+            <img src="images/craft_tnt.png" alt="Craft TNT">
+            <a href="#">Craft para Dinamite TNT</a>
+        </div>
+        <div>
+            <img src="images/goldenapple.png" alt="Craft Maçã Dourada">
+            <a href="#">Craft para Maçã Dourada</a>
+        </div>
+        <div>
+            <img src="images/mesaencantada.png" alt="Craft Mesa Encantada">
+            <a href="#">Craft para Mesa Encantada</a>
+        </div>
+        <div>
+            <img src="images/baudoend.png" alt="Craft Baú do End">
+            <a href="#">Craft para Baú do End</a>
+        </div>
+    </div>
+
+</body>
+</html>
